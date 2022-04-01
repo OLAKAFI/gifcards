@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gifcards/static/css/main.79d077d2.css",
+    "main.js": "/gifcards/static/js/main.c0f243db.js",
+    "static/js/787.b755f208.chunk.js": "/gifcards/static/js/787.b755f208.chunk.js",
+    "index.html": "/gifcards/index.html",
+    "main.79d077d2.css.map": "/gifcards/static/css/main.79d077d2.css.map",
+    "main.c0f243db.js.map": "/gifcards/static/js/main.c0f243db.js.map",
+    "787.b755f208.chunk.js.map": "/gifcards/static/js/787.b755f208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d077d2.css",
+    "static/js/main.c0f243db.js"
+  ]
+}
