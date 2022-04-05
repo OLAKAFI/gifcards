@@ -1,13 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Card, CardGroup} from 'react-bootstrap';
+import {Button, Card, Col} from 'react-bootstrap';
 
 function CardContent({title,currency,id}) {
   return (
     <>
       
-        <CardGroup>
-          <Card style={{ width: '20rem', height: '19rem'}} key={id} className='mb-3 border-primary bg-warning pt-2 '>
+        <Col>
+          <Card  key={id} className='mb-3 border-primary bg-warning  '>
               {/* <Card.Img variant="top" src="holder.js/100px180" className='' /> */}
               <Card.Body >
                 <Card.Title className='my-auto'>{title}</Card.Title>
@@ -19,7 +19,7 @@ function CardContent({title,currency,id}) {
           </Card>
 
 
-        </CardGroup>
+        </Col>
           
 
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {CardGroup} from 'react-bootstrap';
+import {Container, Row} from 'react-bootstrap';
 import CardContent from './CardContent';
 
 
@@ -609,16 +609,25 @@ function CardGifts() {
   return (
     <>
       
-        <CardGroup  className='App'>
-        
-          {
-            allGiftCards.map(giftcards => (
-              <CardContent title={giftcards.title} currency={giftcards.currencies}/>
-            ))
-          }
+        {/* <CardGroup  className='App'> */}
+        <Container>
+          <Row xs={1} sm={2} md={2} lg={3} className="g-2">
+            {
+              allGiftCards.map(giftcards => (
+                <CardContent title={giftcards.title} currency={giftcards.currencies}/>
+              ))
+            }
 
+
+
+          </Row>
+
+
+
+        </Container>
+          
       
-        </CardGroup>
+    
       
       
 
