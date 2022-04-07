@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <h2>GIFT CARDS AND THIER EXCHANGEABLE CURRENCIES</h2>
+      <h2 className='mb-5'>GIFT CARDS AND THIER EXCHANGEABLE CURRENCIES</h2>
       <CardGifts/>
     </div>
   );
